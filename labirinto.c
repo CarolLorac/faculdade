@@ -4,78 +4,82 @@
 
 void main()
 {
-	int l, c, i, index = 0, indexCaminho = 0, valorInicio = 0;
-	int lista[16]; //números diferentes de 0
+	int l, c, i, j, index = 0, indexCaminho = 1, valorInicio = 0, valor, linhaInicio;
 	int caminho[] = {};
-	int continuar = 1, proximo = 0; // 0 - false | 1 - true  
-	
-	int matriz[4][4] = {{1, 2, 0, 0,},
-						{0, 2, 5, 0,},
-						{3, 0, 4, 0,},
-						{10, 20, 3, 6,}}; //cada {} são colunas
-						
-	
-	
+	int proximo = 0; // 0 - false | 1 - true  
+	int matriz[4][4]; 
 	
 	for (c = 0; c < 4; c++)
 	{
-		for (l = 0; l < 4; l++)
-		{ 
-			if (matriz[c][l] != 0)
-			{
-				printf("%i - [%i][%i]\n", matriz[c][l], c, l);
-				lista[index] = matriz[c][l];
-				index ++;
-			}
-		}
+	    for (l = 0; l < 4; l++)
+	    {
+	        matriz[l][c] = rand() % 5;
+	    }
 	}
+    // matriz [linha][coluna]
+    
+    //int matriz[4][4] = {{8, 0, 0, 11,}, {0, 2, 0, 20,}, {0, 5, 3, 0,}, {4, 0, 1, 6,}}; //cada {} são linhas
+	
+	printf ("\n%i %i %i %i", matriz[0][0], matriz[0][1], matriz[0][2], matriz[0][3]);
+	printf ("\n%i %i %i %i", matriz[1][0], matriz[1][1], matriz[1][2], matriz[1][3]);
+	printf ("\n%i %i %i %i", matriz[2][0], matriz[2][1], matriz[2][2], matriz[2][3]);
+	printf ("\n%i %i %i %i\n", matriz[3][0], matriz[3][1], matriz[3][2], matriz[3][3]);
+
 	
 	for (l = 0; l < 4; l++)
 	{
-		if (matriz[0][l] != 0)
+		if (matriz[l][0] > 0)
 		{
-			valorInicio = matriz[0][l];
+			valorInicio = matriz[l][0];
+			linhaInicio = l;
+			caminho[0] = valorInicio;
+			
+			break;
 		}
 	}
 	
-	
-	while (continuar == 1 )
+	if (valorInicio != 0)
 	{
-		for (c = 0; c < 4; c++)
+		for (c = 1; c < 4; c++)
 		{
-			for (l = 0; l < 4; l++)
-			{
-				if ((matriz[l - 1][c +1] != 0) ||
-				     (matriz[l + 1][c +1] != 0) ||
-				     (matriz[l][c +1] != 0))
+			for (l = linhaInicio; l < 4; l++)
+			{	
+				if (matriz[l - 1][c] != 0 && l > 0)
 				{
-					caminho[indexCaminho] = matriz[c][l];
+					caminho[indexCaminho] = matriz[l - 1][c];
 					
 				    indexCaminho++;
-				    proximo = 1;
-				}
-				
-				if (proximo == 1)
+				    linhaInicio = l - 1;
+				    break;
+				}					
+			    else if (matriz[l][c] != 0)
 				{
-					break;
+					caminho[indexCaminho] = matriz[l][c];
+					
+				    indexCaminho++;
+				    linhaInicio = l;
+				    break;
 				}
-			}
-			
-			if (c == 3)
-			{
-				continuar = 0;
+				else if (matriz[l + 1][c] != 0 && l < 3)
+				{
+					caminho[indexCaminho] = matriz[l + 1][c];
+					
+				    indexCaminho++;
+				    linhaInicio = l + 1;
+				    break;
+				}
+				else { }
 			}
 		}
-	}
-	
-	for (i = 0; i < index; i++)
+		
+		printf("\nCAMINHO:");
+		for (i = 0; i < indexCaminho; i++)
+		{
+			printf(" %i", caminho[i]);
+		}
+	}	
+	else
 	{
-		printf("\n%i", lista[i]);
-	}
-	
-	printf("\n\nCAMINHO:");
-	for (i = 0; i < indexCaminho; i++)
-	{
-		printf("%i ", caminho[i]);
+		printf("Nao tem valor para iniciar o caminho!!");
 	}
 }
