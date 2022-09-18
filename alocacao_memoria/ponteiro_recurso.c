@@ -31,7 +31,7 @@ Serve para acessar o conteúdo do endereço do ponteiro, ou seja, o que tem armaze
 void main()
 {
 	int x = 15;
-	int *ptNumero;   //definição apontador para int
+	int *ptNumero;   //definição ponteiro para int
 	int *ptCopia;
 	
 	ptNumero = &x;   //atribuindo ao ponteiro numero o endereço de memória da variável x. 
@@ -52,4 +52,11 @@ void main()
 	printf("Valor x: %i", x);
 	printf("\nValor ponteiro numero (ptNumero): %i", *ptNumero);
 	printf("\nValor ponteiro copia (ptCopia): %i", *ptCopia);
+	
+	/*
+	  Posições da memória (artimética de endereços):
+		Se p é um ponteiro para algum elemento da memória,
+		então p++ incrementa 1 para que aponte para o próximo elemento, e
+		p += n faz com que se aponte n elementos além da posição atual.
+	*/
 }
