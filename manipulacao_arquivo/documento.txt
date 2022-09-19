@@ -1,0 +1,3 @@
+Ola, meu nome eh Caroline de Souza
+
+Esse repositorio eh referente ao curso de C, desenvolvido na faculdade de engenharia da computacao

@@ -1,0 +1,14 @@
+/*
+Escreva um programa que leia o conteúdo um arquivo de texto e:
+
+a. imprima apenas as palavras começadas pelas letras 'a' ou 'A'.
+b. calcula a frequência de vogais
+c. calcula o percentual de vogais no arquivo.
+
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+

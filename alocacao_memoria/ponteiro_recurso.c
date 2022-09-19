@@ -1,5 +1,7 @@
 /*
-PONTEIRO
+PONTEIRO 
+Site: https://www.ime.usp.br/~pf/algoritmos/aulas/pont.html#array
+
 Um ponteiro é uma variável que contém o endereço de memória de outra variável. 
 É muito utilizado em C porque permite que o código seja mais compacto e eficiente.
 
@@ -52,6 +54,7 @@ void main()
 	printf("Valor x: %i", x);
 	printf("\nValor ponteiro numero (ptNumero): %i", *ptNumero);
 	printf("\nValor ponteiro copia (ptCopia): %i", *ptCopia);
+	
 	
 	/*
 	  Posições da memória (artimética de endereços):
