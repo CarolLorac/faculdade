@@ -1,4 +1,4 @@
-//Revisão 3 - estourar a memória
+//Revisão 3 - estourar a memória (alocar até não caber mais)
 #include <stdio.h>
 #include <stdlib.h>
 

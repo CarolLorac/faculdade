@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct tipo_ligada //struct - estrutura, se assemelha um pouco à um dicionário
+struct tipo_ligada //struct - estrutura
 {
     int num;
     struct tipo_ligada *proximo;
