@@ -14,3 +14,10 @@ ex de utilização: quando não sabemos o tamanho do vetor. [Código exemplo](/c
 Links úteis: 
 [Alocação dinâmica de memória em C](https://www.programiz.com/c-programming/c-dynamic-memory-allocation) e
 [Como alocar um vetor dinâmico](https://wagnergaspar.com/como-alocar-um-vetor-dinamico-na-linguagem-c/)
+
+## Aulas
+
+**Recursividade** - Quando falamos de recursividade, precisamos ter 2 informações:
+1) Condição de parada
+2) Como reduzir o problema
+
