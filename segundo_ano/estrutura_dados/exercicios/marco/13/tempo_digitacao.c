@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include <time.h> //TIME.H
+#include <sys/timeb.h>
 
 int main(void)
 {
