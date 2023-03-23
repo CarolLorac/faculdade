@@ -13,6 +13,7 @@ public class Main {
 
         int pasta, exercicio;
 
+        //ADICIONAR DO..WHILE PARA RODAR ATÉ A PESSOA DIGITAR 0
         System.out.println("PASTAS");
         System.out.println("1 - Estruturas de Repetição");
         System.out.println("Selecione a pasta desejada: ");
