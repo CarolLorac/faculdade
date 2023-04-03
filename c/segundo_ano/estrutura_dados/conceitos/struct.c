@@ -30,7 +30,7 @@ int main(void)
 
     //array de struct
     struct Endereco enderecos[10];
-    tamanhoVetor = sizeof(enderecos); //pq tem que fazer essa divisão para saber o tamanho do vetor?
+    tamanhoVetor = sizeof(enderecos);
 
     for (i = 0; i < tamanhoVetor; i++)
     {

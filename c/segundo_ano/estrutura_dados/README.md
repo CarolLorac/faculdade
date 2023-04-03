@@ -1,4 +1,6 @@
 # CURSO C FACULDADE 👩‍🎓
+**Estrutura de dados** - organização de dados na memória de um computador ou dispositivo de armazenamento. Utilização: inserir, excluir, localizar, percorrer e classificar registros (manipulação de dados)
+Dados estruturados da maneira correta trás melhor desempenho de processamento.
 
 ## Conceitos
 **Struct** - é uma coleção de variáveis de diferentes tipos de dados (semelhante a uma classe na programação orientada a objetos).

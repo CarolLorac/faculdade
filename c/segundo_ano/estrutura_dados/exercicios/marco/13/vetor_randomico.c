@@ -14,7 +14,7 @@ int main(void)
     ftime(&inicio);
     for(posicao = 0; posicao < tamanho; posicao++)
     {
-        vet[posicao] = rand;
+        vet[posicao] = rand();
     }
     ftime(&fim);
     dif = (int)(1000 * (fim.time - inicio.time) + (fim.millitm - inicio.millitm));
