@@ -1,4 +1,4 @@
-//Escreva um programa em c que crie um vetor inteiro
+//Escreva um programa em c que crie um vetor de 6 inteiros
 //na funcão principal e crie uma função para carregar o vetor e outra para mostrar o vetor
 
 #include <stdio.h>
@@ -11,7 +11,11 @@ void mostrar(int vetor[], int tamanho);
 int main(void)
 {
 	setlocale(LC_ALL, "portuguese");
-    int tamanho;
+    int vetor[6];
+
+	/*
+	ESSE CÓDIGO É EXTREMAMENTE ERRADO, QUANDO VOCÊ NÃO SABE O TAMANHO DO VETOR, TEM QUE USAR LISTA LIGADA E NÃO GAMBIARRA
+	int tamanho;
     int vetor[tamanho];
     
     do
@@ -27,8 +31,11 @@ int main(void)
 	} while (tamanho <= 0);
     
 	carregar(vetor, tamanho);
-	mostrar(vetor, tamanho);
+	mostrar(vetor, tamanho);*/
 	
+	carregar(vetor, 6);
+	mostrar(vetor, 6);
+
 	return 0;
 }
 

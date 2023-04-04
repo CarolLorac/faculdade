@@ -17,7 +17,7 @@ void mostrar(struct aluno vetor[], int tamanho);
 int main(void)
 {
 	int tamanho;
-	struct aluno vetor[3]; //pq quando é vetor da certo e com struct não?
+	struct aluno vetor[3]; //pq quando é vetor da certo e com struct não? 
 	
 	carregar(vetor, 3);
 	mostrar(vetor, 3);
@@ -32,7 +32,7 @@ void carregar(struct aluno vetor[], int tamanho)
 	for (i = 0; i < tamanho; i++)
 	{
 		printf("Digite o nome do %i aluno: ", i + 1);
-		scanf("%s", &vetor[i].nome); //quando usar . ou -> qual é amis adequado de se usar?
+		scanf("%s", &vetor[i].nome); 
 		printf("Digite o RA do %s: ", vetor[i].nome);
 		scanf("%i", &vetor[i].ra);
 	}
