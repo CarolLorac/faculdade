@@ -10,6 +10,10 @@ Principais métodos de acesso:
 - e = Top(p) : consulta o valor do topo da PILHA p e atribui seu valor ao ELEMENTO e
 - isEmpty(p) : verifica se a PILHA p está vazia
 
+**Fila** - é um estrutura de dados onde o primeiro elemento adicionado é o primeiro elemento a ser removido, seguindo a regra do FIFO (Frist In, First Out). Os elementos são adicionados ao final da fila e removidos do início.
+
+**Diferença entre Pilha e Fila** - a principal diferença entre os dois é a ordem em que os elementos são adicionados e removidos. Na pilha, o último elemento é adicionado é o primeiro a ser removido, enquanto na fila, o primeiro elemento adicionado é o primeiro a ser removido.
+
 ## Conceitos
 **Struct** - é uma coleção de variáveis de diferentes tipos de dados (semelhante a uma classe na programação orientada a objetos).
 [Código exemplo](/conceitos/struct.c)
@@ -42,6 +46,7 @@ aluno->ra -> alocação dinâmica de memória (ou seja, quando vc nao sabe quant
 **Diferença entre return e exit**
 Return - sai da função que está sendo executada
 Exit - finaliza a execução do programa
+``` C
 if (x == 0)
 {
     return;
@@ -50,4 +55,10 @@ if (x == 0)
 {
     exit();
 }
+```
 
+**Polonesa Invertida**
+A forma convencional de escrever expressões é: operando operador operando (ex: 2 + 3). Entretanto, está não é a única forma. Um formato muito utilizado em computação é a "Polonesa Invertida", onde o operador fica após os operandos (ex: 2, 3, +). O uso de pilhas facilita muito esse tipo de operação.
+
+ex:
+![ex notação polonesa invertida](/c/segundo_ano/estrutura_dados/imagens/ex_polonesa_invertida.png)
