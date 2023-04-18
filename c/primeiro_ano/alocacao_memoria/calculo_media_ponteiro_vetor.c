@@ -1,4 +1,4 @@
-//Faça um programa que calcule a média das notas utilizando vetor e ponteiro
+//Faï¿½a um programa que calcule a mï¿½dia das notas utilizando vetor e ponteiro
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -20,15 +20,15 @@ void main()
 		scanf("%d", &vetorNotas[i]);
 	}
 	
-	ptNotas = &vetorNotas; //atribuindo o mesmo endereço de memoria do vetor ao ponteiro
+	ptNotas = &vetorNotas; //atribuindo o mesmo endereï¿½o de memoria do vetor ao ponteiro
 	
 	for (i = 0; i < tamanhoVetor; i++)
 	{
-		notaTotal += (ptNotas + i); //(ptNotas + i) é a mesma coisa q vetor[i]
+		notaTotal += (ptNotas + i); //(ptNotas + i) ï¿½ a mesma coisa q vetor[i]
 		//notaTotal = notaTotal + *(ptNotas + i); 
 	}
 	
 	media = notaTotal/tamanhoVetor;
 	
-	printf("\nA média final é %.2f", media);
+	printf("\nA mÃ©dia final Ã© %.2f", media);
 }
