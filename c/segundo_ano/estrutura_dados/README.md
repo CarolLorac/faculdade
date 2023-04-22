@@ -62,3 +62,32 @@ A forma convencional de escrever expressões é: operando operador operando (ex:
 
 ex:
 ![ex notação polonesa invertida](/c/segundo_ano/estrutura_dados/imagens/ex_polonesa_invertida.png)
+
+## **Resumo**
+
+Estruturas de dados são utilizadas para armazenar e acessar dados de maneira organizada e eficiente. O programador que seleciona a estrutura apropriada.
+
+## Estruturas de dados lineares
+
+**Array** - coleção com sequência contígua de elementos, ou seja, armazena mais de um elemento do mesmo tipo de dado sequencialmente (contígua - próximo, imediato). 
+Cada elemento do array pode ser acessado diretamente usando um índice inteiro que representa a posição do elemento na sequência. Em compensação, o tamanho é definido no momento da criação e não pode ser alterado posteriormente.
+Pode ser unidimensional(vetor) ou multidimensional(matriz). 
+![imagem array](/segundo_ano/estrutura_dados/imagens/array.png)
+
+
+**Pilha** - empilha um item acima do outro. Segue o padrão LIFO (Last In First Out), ou seja, o último elemento a entrar é o primeiro a sair.
+![imagem pilha](/segundo_ano/estrutura_dados/imagens/pilha.png)
+
+**Fila** - segue o padrão FIFO (First In First Out), ou seja, o primeiro a entrar é o primeiro a sair.
+![imagem fila](/segundo_ano/estrutura_dados/imagens/fila.png)
+
+**Lista ligada** - estrutura linear que armazena uma coleção de elementos dinamicamente. Cada lista encadeada tem 2 partes, a *seção de dados* e a *seção de endereço* que contém o endereço (ponteiro) do próximo elemento da lista, que é chamado de nó. 
+![imagem lista ligada](/segundo_ano/estrutura_dados/imagens/lista_ligada.png)
+
+
+**Links utilizados**
+- [O que são estruturas de dados e como usá-las](https://www.edureka.co/blog/c-data-structures/#:~:text=Data%20Structures%20in%20C%20are,it%20according%20to%20their%20convenience.)
+- [Array](https://www.guru99.com/array-data-structure.html)
+- [Pilha](https://www.programiz.com/dsa/stack)
+- [Lista ligada](https://www.sanfoundry.com/c-program-implement-singly-linked-list/)
+
