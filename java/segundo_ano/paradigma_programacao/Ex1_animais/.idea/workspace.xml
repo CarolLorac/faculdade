@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0238d9fe-570c-4dab-b50a-d637a965c1ff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../primeiro_ano/alocacao_memoria/alocacao_dinamica.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../primeiro_ano/alocacao_memoria/calculo_media_ponteiro_vetor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../primeiro_ano/alocacao_memoria/calculo_media_ponteiro_vetor.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../primeiro_ano/alocacao_memoria/ponteiro_recurso.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../primeiro_ano/calculadora.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../primeiro_ano/labirinto.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../primeiro_ano/manipulacao_arquivo/documento.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../primeiro_ano/manipulacao_arquivo/ex1_leitura_arquivo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../primeiro_ano/manipulacao_arquivo/ex2_arquivo_csv.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../primeiro_ano/manipulacao_arquivo/ex3_criacao_arquivo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../primeiro_ano/manipulacao_arquivo/manipulacao_arquivo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../primeiro_ano/manipulacao_string/manipulacao_strings.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../primeiro_ano/pedra_papel_tesoura.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../primeiro_ano/string.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/conceitos/malloc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/conceitos/output/malloc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/conceitos/output/struct.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/conceitos/struct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/exercicios/fevereiro/carregar_mostrar_struct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/exercicios/fevereiro/carregar_mostrar_vetor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/exercicios/marco/06/estourar_memoria.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/exercicios/marco/06/lista_ligada.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/exercicios/marco/06/lista_ligada_usuario.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/exercicios/marco/06/recursividade.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/exercicios/marco/06/sequencia_fibonacci.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/exercicios/marco/13/parametro_valor_referencia.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/exercicios/marco/13/tempo_digitacao.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/exercicios/marco/13/vetor_randomico.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/exercicios/marco/20/lista_ligada_com_funcao.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/exercicios/marco/20/ordenacao.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/exercicios/marco/20/output/lista_ligada_com_funcao.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/exercicios/marco/20/output/ordenacao.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/output/carregar_mostrar_struct.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/output/estourar_memoria.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/output/ler_mostrar_vetor.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/output/lista_ligada.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/output/lista_ligada_usuario.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/output/recursividade.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/output/sequencia_fibonacci.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/revisao/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/revisao/output/revisao1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/revisao/output/revisao2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/revisao/revisao1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../segundo_ano/estrutura_dados/revisao/revisao2.c" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2N4VfcKSf017PpdTKN8GXWXODyV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Carol Souza/Documents/curso_C_faculdade/java/segundo_ano/paradigma_programacao"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0238d9fe-570c-4dab-b50a-d637a965c1ff" name="Changes" comment="" />
+      <created>1678923446107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678923446107</updated>
+    </task>
+    <servers />
+  </component>
+</project>
