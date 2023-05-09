@@ -63,9 +63,26 @@ A forma convencional de escrever expressões é: operando operador operando (ex:
 ex:
 ![ex notação polonesa invertida](/c/segundo_ano/estrutura_dados/imagens/ex_polonesa_invertida.png)
 
+**Custo Operacional**
+
+
 ## **Resumo**
 
 Estruturas de dados são utilizadas para armazenar e acessar dados de maneira organizada e eficiente. O programador que seleciona a estrutura apropriada.
+
+## Ponteiro
+Os ponteiros são variáveis que armazenam o endereço de memória de outras variáveis.
+``` C
+int valor = 10;
+
+//declaração variável ponteiro
+int *ptr;
+
+//atribuindo o endereço da variável ao ponteiro
+ptr = &valor;
+```
+
+
 
 ## Estruturas de dados lineares
 
