@@ -67,6 +67,16 @@ ex:
 **Custo Operacional**
 
 
+**Árvores binárias**
+Uma árvore binária (tem no máximo 2 nós-filhos) estará ordenada quando os menores nós estiverem à esquerda e os maiores à direita. Todas leituras são feitas lendo primeiro a esquerda e depois a direita.
+![imagem árvore](/c/segundo_ano/estrutura_dados/imagens/arvore.png)
+
+Passeios (quem define o tipo é a posição do V): 
+Pré - ordem (VED) - visita, esquerda, direita 
+Ordem (EVD) - esquerda, visita, direita (o resultado será em ordem crescente)
+Pós - ordem (EDV) - esquerda, direita, visita
+obs: o passeio sempre começa da raiz
+
 ## **Resumo**
 
 Estruturas de dados são utilizadas para armazenar e acessar dados de maneira organizada e eficiente. O programador que seleciona a estrutura apropriada.
