@@ -1,4 +1,4 @@
-//Elabore uma função recursiva para contar os nós de uma árvore (testar depois se funciona com passahem de valor pro referencia)
+//Crie uma função para mostrar os nós acima da média
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -9,7 +9,9 @@ struct tipoNo
 };
 
 struct tipoNo* criaNo (int vlr);
-int contarNos (struct tipoNo *pai);
+float somarValorNos(struct tipoNo *pai);
+int contarNos(struct tipoNo *pai);
+void verificarValoresNosAcimaMedia(struct tipoNo *pai, float media);
 
 int main(void)
 {
@@ -74,32 +76,64 @@ int main(void)
       }
    }
 
-   printf("Quantidade de nos: %d", contarNos(arv));
+   float media = somarValorNos(pai) / contarNos(pai);
+   
+    printf("%f\n", somarValorNos(pai));
+    printf("%i\n", contarNos(pai));
+    printf("%f\n", media);
+
+   printf("\nValores acima da media:");
+   verificarValoresNosAcimaMedia(pai, media);
    
    return 0;   
 }
 
-struct tipoNo* criaNo (int vlr)
+struct tipoNo* criaNo(int vlr)
 {
-   struct tipoNo *noAux;    //Declara um apontador para novo no
-   noAux = (struct tipoNo*) malloc(sizeof(struct tipoNo)); //Aloca memoria para o novo no
+   struct tipoNo *noAux;   
+   noAux = (struct tipoNo*) malloc(sizeof(struct tipoNo)); 
    if( noAux == NULL )
    {
-      printf( "Faltou memoria para alocar o no!\n");  //Nao conseguiu alocar memoria
+      printf( "Faltou memoria para alocar o no!\n");  
       return NULL;
    }
 
-   noAux->valor = vlr; //Registra o valor recebido
-   noAux->esquerda = NULL; //Marca este No como sendo o unico da arvore
+   noAux->valor = vlr; 
+   noAux->esquerda = NULL; 
    noAux->direita = NULL;
-   return noAux; //Se chegou ateh aqui eh porque foi tudo bem
+   return noAux; 
 };
 
-int contarNos (struct tipoNo *pai)
+float somarValorNos(struct tipoNo *pai)
+{
+    if(pai != NULL)
+    {
+        printf("Somar nos: %d\n", pai->valor);
+        return pai->valor + somarValorNos(pai->esquerda) + somarValorNos(pai->direita); //VERIFICAR COM O PROFESSOR NA PROXIMA AULA
+    }
+    return 0;
+};
+
+int contarNos(struct tipoNo *pai)
+{
+    if(pai != NULL)
+    {
+         printf("Contar nos: %d\n", pai->valor);
+        return 1 + contarNos(pai->esquerda) + contarNos(pai->direita);
+    }
+    return 0;
+}
+
+void verificarValoresNosAcimaMedia(struct tipoNo *pai, float media)
 {
     if (pai != NULL)
     {
-        return (1 + contarNos(pai->esquerda) + contarNos(pai->direita));
+        if (pai->valor > media)
+        {
+            printf("\n%d", pai->valor);
+        }
+
+        verificarValoresNosAcimaMedia(pai->esquerda, media);
+        verificarValoresNosAcimaMedia(pai->direita, media);
     }
-    return 0;
 }

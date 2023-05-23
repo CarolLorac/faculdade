@@ -1,4 +1,4 @@
-//Elabore uma função recursiva para contar os nós de uma árvore (testar depois se funciona com passahem de valor pro referencia)
+//Faça uma função para somar os nós da árvore
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -9,7 +9,7 @@ struct tipoNo
 };
 
 struct tipoNo* criaNo (int vlr);
-int contarNos (struct tipoNo *pai);
+int somarValorNos(struct tipoNo *pai);
 
 int main(void)
 {
@@ -74,32 +74,33 @@ int main(void)
       }
    }
 
-   printf("Quantidade de nos: %d", contarNos(arv));
+   printf("Soma dos valores dos nós: %d", somarValorNos(pai));
    
    return 0;   
 }
 
 struct tipoNo* criaNo (int vlr)
 {
-   struct tipoNo *noAux;    //Declara um apontador para novo no
-   noAux = (struct tipoNo*) malloc(sizeof(struct tipoNo)); //Aloca memoria para o novo no
+   struct tipoNo *noAux;   
+   noAux = (struct tipoNo*) malloc(sizeof(struct tipoNo)); 
    if( noAux == NULL )
    {
-      printf( "Faltou memoria para alocar o no!\n");  //Nao conseguiu alocar memoria
+      printf( "Faltou memoria para alocar o no!\n");  
       return NULL;
    }
 
-   noAux->valor = vlr; //Registra o valor recebido
-   noAux->esquerda = NULL; //Marca este No como sendo o unico da arvore
+   noAux->valor = vlr; 
+   noAux->esquerda = NULL; 
    noAux->direita = NULL;
-   return noAux; //Se chegou ateh aqui eh porque foi tudo bem
+   return noAux; 
 };
 
-int contarNos (struct tipoNo *pai)
+int somarValorNos(struct tipoNo *pai)
 {
-    if (pai != NULL)
+    if(pai != NULL)
     {
-        return (1 + contarNos(pai->esquerda) + contarNos(pai->direita));
+        return pai->valor + somarValorNos(pai->direita) + somarValorNos(pai->esquerda);
     }
     return 0;
-}
+};
+
